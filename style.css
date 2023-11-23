@@ -1,0 +1,54 @@
+
+.label{
+  display: block;
+  font-weight: bold;
+}
+.label::after{
+  content: '*';
+  color: red;
+}
+.wrapper{
+  display: flex;
+  gap: 10px;
+}
+.input-wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.input{
+  padding: 5px;
+  max-width: 250px;
+  border-radius: 2px;
+  border: 1px solid;
+}
+.input:focus{
+  outline: none;
+}
+.span{
+  color: gray;
+}
+
+.input.input-email{
+  min-width: 360px;
+}
+.experience{
+  margin: 10px 0;
+}
+.icon{
+  color: rgba(255, 68, 0, 0.5);
+  margin-top: 2px;
+  margin-right: 2px;
+}
+.satisfy,.likes{
+  margin: 15px 0;
+}
+.table__head,td{
+  padding: 10px;
+}
+
+button{
+  padding: 8px 10px;
+  margin-top: 10px;
+  border: 1px solid gray;
+}
